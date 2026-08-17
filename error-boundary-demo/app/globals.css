@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0b0e14;
+  color: #e6e8ef;
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+.card {
+  background: #12151d;
+  border: 1px solid #232735;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: transform 0.1s ease;
+}
+.btn:active {
+  transform: scale(0.97);
+}
+.btn-primary {
+  background: #1e40ff;
+  color: white;
+}
+.btn-danger {
+  background: #e53e3e;
+  color: white;
+}
+.btn-outline {
+  background: transparent;
+  border-color: #333a4d;
+  color: #e6e8ef;
+}
